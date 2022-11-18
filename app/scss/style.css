@@ -291,6 +291,16 @@ button:hover,
   margin-bottom: 2.25rem;
 }
 
+@media (min-width: 64em) {
+  .feature__grid {
+    display: flex;
+  }
+}
+@media (min-width: 64em) {
+  .feature__item {
+    flex: 1;
+  }
+}
 .has-fade {
   visibility: hidden;
 }
