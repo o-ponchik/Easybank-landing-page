@@ -146,10 +146,14 @@ button,
   font-size: $font-sm;
   font-weight: 400;
   cursor: pointer;
-  transition: opacity 300ms ease-in-out;
+  transition: background all 300ms ease-in-out;
 
   &:hover {
-    opacity: 0.7;
+    background: linear-gradient(
+      to right,
+      $limeGreenLighter,
+      $brightCyanLighter
+    );
   }
 }
 
